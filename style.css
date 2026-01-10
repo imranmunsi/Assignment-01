@@ -144,6 +144,7 @@ nav .menu{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    gap: 10px;
 }
 
 #secondary-button{ 
@@ -275,4 +276,57 @@ nav .menu{
     color: #001931;
     margin-top: 40px;
     gap: 16px;
+}
+
+
+.access-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 164px;
+    height: 44px;
+    background-color: #30b868;
+    border: none;
+    border-radius: 4px;
+    padding: 12 16;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.ready-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 88%;
+    max-width: 1360px;
+    height: 384px;
+    flex-direction: column;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    margin: 0 auto;
+    gap: 24px;
+    border-radius: 12px;
+}
+
+.ready-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+}
+
+.ready-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+.ready-content h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
 }
