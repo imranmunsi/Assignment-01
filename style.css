@@ -330,3 +330,39 @@ nav .menu{
     font-weight: 400;
     color: #627382;
 }
+
+.footer {
+    margin: 0;
+    background-color: #001931;
+    height: 348px;
+}
+
+.footer-heading {
+    display: flex;
+    width: 88%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 80px;
+    justify-content: space-between;
+}
+
+.social-icon h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.social-icon ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+.footer-line {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
